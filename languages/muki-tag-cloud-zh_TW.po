@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: muki-tag-cloud\n"
+"POT-Creation-Date: 2013-11-05 23:37+0800\n"
+"PO-Revision-Date: 2013-11-06 00:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: Muki & Mesak <mukispace@gmail.com>\n"
+"Language: 正體中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../muki-tag-cloud.php:22
+msgid "Muki Tag Cloud"
+msgstr ""
+
+#: ../muki-tag-cloud.php:23
+msgid "Tag Cloud By Muki & Mesak"
+msgstr "標籤雲 製作：Muki & Mesak"
+
+#: ../muki-tag-cloud.php:43
+msgid "Tags Cloud"
+msgstr "標籤雲"
+
+#: ../muki-tag-cloud.php:66
+msgid "Tag Cloud"
+msgstr "標籤雲"
+
+#: ../muki-tag-cloud.php:70
+msgid "Title:"
+msgstr "標題："
+
+#: ../muki-tag-cloud.php:228 ../muki-tag-cloud.php:258
+msgid "Muki Tag Cloud - User Options"
+msgstr "Muki Tag Cloud 設定值"
+
+#: ../muki-tag-cloud.php:248
+msgid "Settings saved."
+msgstr "儲存設定值"
+
+#: ../muki-tag-cloud.php:254
+msgid "Settings deleted."
+msgstr "刪除設定值"
+
+#: ../muki-tag-cloud.php:259
+msgid "Updates your settings here"
+msgstr "在此更新標籤雲設定值"
+
+#: ../muki-tag-cloud.php:268
+msgid "Widget Height"
+msgstr "小工具高度"
+
+#: ../muki-tag-cloud.php:269
+msgid "px or %; default is 400px"
+msgstr "像素(px); 預設值為 400px"
+
+#: ../muki-tag-cloud.php:273
+msgid "Widget Width"
+msgstr "小工具寬度"
+
+#: ../muki-tag-cloud.php:274
+msgid "px or %; default is 100%"
+msgstr "像素(px); 預設值為 100%"
+
+#: ../muki-tag-cloud.php:278
+msgid "Tag Cloud order by"
+msgstr "標籤雲排序依據"
+
+#: ../muki-tag-cloud.php:280
+msgid "article"
+msgstr "依照文章數量排序"
+
+#: ../muki-tag-cloud.php:282
+msgid "random"
+msgstr "隨機排序"
+
+#: ../muki-tag-cloud.php:285
+msgid "Font Size"
+msgstr "文字大小"
+
+#: ../muki-tag-cloud.php:286
+msgid "px; defaults is 12"
+msgstr "像素(px); 預設為12"
+
+#: ../muki-tag-cloud.php:286
+msgid "px; defaults is 36"
+msgstr "像素(px); 預設為36"
+
+#: ../muki-tag-cloud.php:288
+msgid "smallest"
+msgstr "最小文字"
+
+#: ../muki-tag-cloud.php:288
+msgid "largest"
+msgstr "最大文字"
+
+#: ../muki-tag-cloud.php:289
+msgid "Color Scheme"
+msgstr "色彩風格"
