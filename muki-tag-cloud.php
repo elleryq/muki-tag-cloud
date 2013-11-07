@@ -5,7 +5,7 @@ Plugin URI: http://www.mukispace.com/wordpress-shape-tag-cloud/
 Description: Another wordpress tag cloud plugin based on jQCloud, which is creative, beauty and colorful. Design by <a href="http://www.mukispace.com">Muki</a>,Code by <a href="http://mesak.tw">Mesak</a>
 Author: Muki
 Author URI: http://www.mukispace.com
-Version: 1.1
+Version: 1.1.1
 */
 
 function MukiTagCloud_init() {
@@ -186,13 +186,13 @@ function muki_tag_cloud_footer_scripts() {
 }
 function muki_tag_cloug_get_color_scheme( $name = 'fresh'){
 	$color_scheme_opt = array(
-	'fresh'  => array('> a:hover' => '#e94252','span.w10 a' => '#3aadb9','span.w9 a' => '#e68d15','span.w8 a' => '#843014','span.w7 a' => '#62693d','span.w6 a' => '#a8a852','span.w5 a' => '#785430','span.w4 a' => '#8db9aa','span.w3 a' => '#cc99cc','span.w2 a' => '#525a4b','span.w1 a' => '#9d88d6'),
-	'light'  => array('> a:hover' => '#eced87','span.w10 a' => '#fdaeaa','span.w9 a' => '#f0b48b','span.w8 a' => '#f0b48b','span.w7 a' => '#bade83','span.w6 a' => '#98dee0','span.w5 a' => '#bade83','span.w4 a' => '#fdaeaa','span.w3 a' => '#90aff8','span.w2 a' => '#98dee0','span.w1 a' => '#90aff8'),
-	'dark'   => array('> a:hover' => '#6b51ae','span.w10 a' => '#6a7a52','span.w9 a' => '#6b51ae','span.w8 a' => '#934c74','span.w7 a' => '#dc001a','span.w6 a' => '#55a9f2','span.w5 a' => '#45ce5e','span.w4 a' => '#cc99cc','span.w3 a' => '#99b333','span.w2 a' => '#6a7a52','span.w1 a' => '#c6560c'),
-	'blue'   => array('> a:hover' => '#d7f1f9','span.w10 a' => '#0055a5','span.w9 a' => '#76c6f0','span.w8 a' => '#2461aa','span.w7 a' => '#a6cae1','span.w6 a' => '#1a4aec','span.w5 a' => '#2ac3cf','span.w4 a' => '#2461aa','span.w3 a' => '#1a4aec','span.w2 a' => '#86d7d1','span.w1 a' => '#00d7f8'),
-	'red'    => array('> a:hover' => '#ffa001','span.w10 a' => '#d64e12','span.w9 a' => '#ff660a','span.w8 a' => '#972f38','span.w7 a' => '#a11c48','span.w6 a' => '#c24b37','span.w5 a' => '#c50747','span.w4 a' => '#e85a08','span.w3 a' => '#ff0000','span.w2 a' => '#ff3333','span.w1 a' => '#c50747'),
-	'green'  => array('> a:hover' => '#41532e','span.w10 a' => '#233a0a','span.w9 a' => '#4d7423','span.w8 a' => '#63674c','span.w7 a' => '#6e783e','span.w6 a' => '#72c39a','span.w5 a' => '#99ac3a','span.w4 a' => '#89bd89','span.w3 a' => '#68a14a','span.w2 a' => '#70ca41','span.w1 a' => '#9eca9e'),
-	'gray'   => array('> a:hover' => '#ccc','span.w10' => '#2c2c2c','span.w9' => '#3e3d3d','span.w8' => '#646464','span.w7 a' => '#828e82','span.w6 a' => '#99aa99','span.w5 a' => '#a7a7a7','span.w4 a' => '#b9b9b2','span.w3 a' => '#c1c1c1','span.w2 a' => '#000','span.w1 a' => '#adadad')
+	'fresh'  => array('a[href]:hover' => '#e94252','span.w10 a' => '#3aadb9','span.w9 a' => '#e68d15','span.w8 a' => '#843014','span.w7 a' => '#62693d','span.w6 a' => '#a8a852','span.w5 a' => '#785430','span.w4 a' => '#8db9aa','span.w3 a' => '#cc99cc','span.w2 a' => '#525a4b','span.w1 a' => '#9d88d6'),
+	'light'  => array('a[href]:hover' => '#eced87','span.w10 a' => '#fdaeaa','span.w9 a' => '#f0b48b','span.w8 a' => '#f0b48b','span.w7 a' => '#bade83','span.w6 a' => '#98dee0','span.w5 a' => '#bade83','span.w4 a' => '#fdaeaa','span.w3 a' => '#90aff8','span.w2 a' => '#98dee0','span.w1 a' => '#90aff8'),
+	'dark'   => array('a[href]:hover' => '#6b51ae','span.w10 a' => '#6a7a52','span.w9 a' => '#6b51ae','span.w8 a' => '#934c74','span.w7 a' => '#dc001a','span.w6 a' => '#55a9f2','span.w5 a' => '#45ce5e','span.w4 a' => '#cc99cc','span.w3 a' => '#99b333','span.w2 a' => '#6a7a52','span.w1 a' => '#c6560c'),
+	'blue'   => array('a[href]:hover' => '#d7f1f9','span.w10 a' => '#0055a5','span.w9 a' => '#76c6f0','span.w8 a' => '#2461aa','span.w7 a' => '#a6cae1','span.w6 a' => '#1a4aec','span.w5 a' => '#2ac3cf','span.w4 a' => '#2461aa','span.w3 a' => '#1a4aec','span.w2 a' => '#86d7d1','span.w1 a' => '#00d7f8'),
+	'red'    => array('a[href]:hover' => '#ffa001','span.w10 a' => '#d64e12','span.w9 a' => '#ff660a','span.w8 a' => '#972f38','span.w7 a' => '#a11c48','span.w6 a' => '#c24b37','span.w5 a' => '#c50747','span.w4 a' => '#e85a08','span.w3 a' => '#ff0000','span.w2 a' => '#ff3333','span.w1 a' => '#c50747'),
+	'green'  => array('a[href]:hover' => '#41532e','span.w10 a' => '#233a0a','span.w9 a' => '#4d7423','span.w8 a' => '#63674c','span.w7 a' => '#6e783e','span.w6 a' => '#72c39a','span.w5 a' => '#99ac3a','span.w4 a' => '#89bd89','span.w3 a' => '#68a14a','span.w2 a' => '#70ca41','span.w1 a' => '#9eca9e'),
+	'gray'   => array('a[href]:hover' => '#ccc','span.w10' => '#2c2c2c','span.w9' => '#3e3d3d','span.w8' => '#646464','span.w7 a' => '#828e82','span.w6 a' => '#99aa99','span.w5 a' => '#a7a7a7','span.w4 a' => '#b9b9b2','span.w3 a' => '#c1c1c1','span.w2 a' => '#000','span.w1 a' => '#adadad')
 	);
 	return isset($color_scheme_opt[$name]) ? $color_scheme_opt[$name] : $color_scheme_opt['fresh'];
 }

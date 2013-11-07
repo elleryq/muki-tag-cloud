@@ -26,7 +26,7 @@ div.jqcloud span.w1 { font-size: 100%; }
 /* colors */
 div.jqcloud { color: #98db18; }
 div.jqcloud a { color: inherit; }
-div.jqcloud span > a:hover { color: #e94252; }
+div.jqcloud span a[href]:hover { color: #e94252; }
 div.jqcloud span.w10 a { color: #3aadb9; }
 div.jqcloud span.w9 a { color: #e68d15; }
 div.jqcloud span.w8 a { color: #843014; }
