@@ -5,7 +5,7 @@ Plugin URI: http://www.mukispace.com/wordpress-shape-tag-cloud/
 Description: Another wordpress tag cloud plugin based on jQCloud, which is creative, beauty and colorful. Design by <a href="http://www.mukispace.com">Muki</a>,Code by <a href="http://mesak.tw">Mesak</a>
 Author: Muki
 Author URI: http://www.mukispace.com
-Version: 1.0
+Version: 1.1
 */
 
 function MukiTagCloud_init() {
