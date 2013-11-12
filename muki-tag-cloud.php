@@ -5,7 +5,7 @@ Plugin URI: http://www.mukispace.com/wordpress-plugin-muki-tag-cloud
 Description: Another wordpress tag cloud plugin based on jQCloud, which is creative, beauty and colorful. Design by <a href="http://www.mukispace.com">Muki</a>,Code by <a href="http://mesak.tw">Mesak</a>
 Author: Muki
 Author URI: http://www.mukispace.com
-Version: 1.2
+Version: 1.2s
 */
 
 define('MUKI_TG_NAME', 'muki-tag-cloud');

@@ -49,9 +49,7 @@ class MukiTagCloud_Widget extends WP_Widget {
 		$data = $this->get_tags($instance);
 		//var_dump($this);
 		$tags_html = wp_generate_tag_cloud($data['tags']);
-		echo '<pre> ' . $args['widget_id'];
-		var_dump($instance);
-		echo '</pre>';
+
 		if($usenofollow)
 	 		echo str_replace(' href='," rel='nofollow' href=",$tags_html);
 	 	else
