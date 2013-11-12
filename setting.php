@@ -51,31 +51,6 @@ function muki_tag_cloud_option_page() {
             	<label for="muki_tag_cloud_setting_font_large"><?php _e("largest", MUKI_TG_NAME);?>:&nbsp;<input type="text" name="muki_tag_cloud_setting[font_large]" id="muki_tag_cloud_setting_font_large" value="<?php echo $muki_tag_cloud_setting['font_large']; ?>" size="1" /> <?php _e("px; defaults is 36", MUKI_TG_NAME ); ?></label>
             </td>
         </tr>
-        			<!--
-        <tr valign="top">
-            <th scope="row"><?php _e("Color Scheme", MUKI_TG_NAME ); ?></th>
-            <td><label for="muki_tag_cloud_setting_color_scheme">
-            	<select id="muki_tag_cloud_setting_color_scheme" name="muki_tag_cloud_setting[color_scheme]" onchange="document.getElementById('preview').src = '../wp-content/plugins/muki-tag-cloud/colorscheme-' + this.value + '.png'">
-            <?
-				foreach( array(
-		"fresh" => 'fresh (default)',
-		"light" => 'light',
-		"dark"  => 'dark',
-		"blue"  => 'single color (blue)',
-		"red"   => 'single color (red)',
-		"green" => 'single color (green)',
-		"gray"  => 'single color (gray)'
-    ) as $key => $val){
-					$selected = ( $key == $muki_tag_cloud_setting['color_scheme'] ) ? ' selected="selected"':'';
-					echo  '<option value="'.$key.'"'.$selected.'>'.$val.'</option>';
-				}
-            ?>
-            	</select>
-            	<br />
-            	<img id="preview" width="100%" src="../wp-content/plugins/muki-tag-cloud/colorscheme-<?php echo $muki_tag_cloud_setting['color_scheme'];?>.png" border="0" />
-            </td>
-        </tr>
-        		-->
     </table>
 
 <p class="submit">

@@ -131,7 +131,7 @@ class MukiTagCloud_Widget extends WP_Widget {
         </table>
 		<p><label for="<?php echo $this->get_field_id( 'color_scheme' ); ?>"><?php _e("Color Scheme", MUKI_TG_NAME ); ?><?php _e( ':', MUKI_TG_NAME ); ?></label>
             <select id="<?php echo $this->get_field_id( 'color_scheme' ); ?>" name="<?php echo $this->get_field_name( 'color_scheme' ); ?>" onchange="document.getElementById('preview-<?php echo $this->get_field_id( 'color_scheme' ); ?>').src = '../wp-content/plugins/muki-tag-cloud/colorscheme-' + this.value + '.png'">
-            <?
+            <?php
 				foreach( array(
 		"fresh" => 'fresh (default)',
 		"light" => 'light',
