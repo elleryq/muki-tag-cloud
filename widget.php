@@ -226,7 +226,12 @@ function muki_tag_cloud_footer_scripts() {
 	if( is_array($wp_registered_widgets) && count($wp_registered_widgets) )
 	{
 		foreach( $wp_registered_widgets as $id => $widget )
-		{
+        {
+            /* simply ignore the item which 'callback' is string. */
+            if(gettype($widget['callback']) == 'string') {
+                continue;
+            }
+
 			$oWidget = & $widget['callback'][0];
 			if( is_object($oWidget) && $oWidget->id_base =='mukitagcloud'){
 				$word_list[$id] = $oWidget->getData($id);
